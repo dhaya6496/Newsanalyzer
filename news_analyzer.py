@@ -6,6 +6,7 @@
 
 from newspaper import Article
 import nltk
+nltk.download('all')
 import string
 from nltk.tokenize import sent_tokenize,word_tokenize
 from nltk.stem import LancasterStemmer
